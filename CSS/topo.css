@@ -1,0 +1,77 @@
+*{
+   
+    font-family: 'Proxima Nova', Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0;
+    color: white;
+    text-shadow: 500px black;
+    
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 70px;
+}
+
+.logo{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 30%;
+    padding-left: 10px;
+}
+
+
+header .navegation ul{
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+}
+header .navegation  li{
+    list-style: none;
+    margin-left: 10px;
+}
+header .navegation li a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+  
+
+}
+header .navegation a:hover{
+    text-decoration: underline rgb(71, 68, 245) 5px ;
+    
+
+}
+
+header .botao{
+    border-radius: 30px;
+    height: 30px;
+    border-style: none;
+    color: black;
+}
+header .botao2{
+    border-radius: 30px;
+     background-color: orange;
+    border-style: none;
+    height: 25px;
+    width: 80px;
+
+}
+
+
+header .pesquisar{
+  position: relative;
+  padding-left: 60px;
+}
+
+

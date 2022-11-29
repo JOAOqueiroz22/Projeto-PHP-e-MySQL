@@ -1,0 +1,244 @@
+.container{
+    
+    display: grid;
+    grid-template-columns: 200px auto;
+    height: 100vh;
+
+   
+}
+.container div{
+    background-color: aliceblue;
+    padding: 20px;
+    position: relative;
+}
+
+#sidebar{
+    background-image: linear-gradient(to bottom, #5a50c9, #09062e);
+    
+}
+
+#sidebar .boxImg{
+    background-image: linear-gradient(to bottom, #241e61, #09062e);
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    padding-bottom: 0;
+    height: auto;
+    
+}
+
+#sidebar .img1{
+    transform: rotate(0);
+    height: 220px;
+    position: relative;
+    
+    
+}
+
+#sidebar .img2{
+    height: 300px;
+    transform: rotate(-10deg);
+    position: absolute;
+    bottom: 130px;
+    left: -10;
+}
+
+#sidebar .img3{
+    height: 500px;
+    transform: rotate(5deg);
+    position: absolute;
+    right: 0;
+    bottom: 220px;
+  
+}
+
+#sidebar .img4{
+    height: 600px;
+    position: absolute;
+    
+    bottom: 20px;
+}
+
+#sidebar .img5{
+    transform: rotate(0);
+    height: 220px;
+    position: relative;
+   
+}
+
+#conteudo{
+    display: grid;
+    grid-template-columns: 200px auto;
+    gap: 250px;
+    background-image: url('estampa2.jpg') ;
+    grid-template-rows: 60px;
+   
+
+    
+}
+
+#conteudo .coraline{
+    position: relative;
+    height: 237px;
+    width: 420px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow:
+  3.4px 3.4px 2.7px rgba(202, 200, 200, 0.042),
+  8.7px 8.7px 6.9px rgba(255, 255, 255, 0.062),
+  17.7px 17.7px 14.2px rgba(248, 198, 198, 0.08),
+  36.5px 36.5px 29.2px rgba(0, 0, 0, 0.102),
+  100px 100px 80px rgba(0, 0, 0, 0.15)
+  
+;
+color: white;
+}
+
+#conteudo .pokemon{
+    position: relative;
+    margin-left: 100px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #322e61, #3b3774);
+  
+    box-shadow:
+    3.4px 3.4px 2.7px rgba(202, 200, 200, 0.042),
+    8.7px 8.7px 6.9px rgba(255, 255, 255, 0.062),
+    17.7px 17.7px 14.2px rgba(248, 198, 198, 0.08),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.102),
+    100px 100px 80px rgba(0, 0, 0, 0.15)
+  ;
+}
+
+#conteudo .sao{
+    position: relative;
+    height: 237px;
+    width: 420px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow:
+
+    3.4px 3.4px 2.7px rgba(202, 200, 200, 0.042),
+    8.7px 8.7px 6.9px rgba(255, 255, 255, 0.062),
+    17.7px 17.7px 14.2px rgba(248, 198, 198, 0.08),
+    36.5px 36.5px 29.2px rgba(0, 0, 0, 0.102),
+    100px 100px 80px rgba(0, 0, 0, 0.15)
+  ;
+}
+#conteudo .st{
+    position: relative;
+    height: 237px;
+    width: 420px;
+    margin-left: 100px;
+    border-radius: 10px;
+    box-shadow:
+  3.4px 3.4px 2.7px rgba(202, 200, 200, 0.042),
+  8.7px 8.7px 6.9px rgba(255, 255, 255, 0.062),
+  17.7px 17.7px 14.2px rgba(248, 198, 198, 0.08),
+  36.5px 36.5px 29.2px rgba(0, 0, 0, 0.102),
+  100px 100px 80px rgba(0, 0, 0, 0.15)
+;
+}
+
+
+.texto-hover {
+    opacity: 1;
+    transition: 1s ease-in-out;
+    
+}
+.texto-hover:hover {
+    opacity: 0.9;
+    transform: translateY(-10px);
+}
+
+
+.texto{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 400px;
+    margin-bottom: 300px;
+    color: white;
+   
+}
+
+.texto2{
+    position: absolute;
+    font-size: 50px;
+    margin-right: 400px;
+    margin-top: 250px;
+   color: white;
+}
+
+.texto3{
+    color: white;
+    padding-left: 100px;
+    font-size: 15px;
+}
+
+.link{
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    margin-left: 100px;
+  
+
+}
+
+
+.slider {
+   
+    height: 100px;
+    width: 100px;
+    margin-top: 600px;
+    position: absolute;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
