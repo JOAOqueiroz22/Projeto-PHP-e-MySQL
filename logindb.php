@@ -22,7 +22,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
                 $sql_query = $conn->query($sql_code) or die("Falha na execução do código SQL: " . $conn->error);
                 $quantidade = $sql_query->num_rows;
 
-                if($quantidade == 1){
+                if($quantidade == 2){
                     $usuario = $sql_query->fetch_assoc();
 
                     if(!isset($_SESSION)){
